@@ -31,6 +31,10 @@
     --text-primary: rgba(18, 20, 29, 1);
     --text-secondary: rgba(64, 64, 64, 1);
     --text-light: rgba(255, 255, 255, 1);
+
+    /* Paddings */
+
+    
 }
 
 /* Base Styles */
@@ -80,14 +84,19 @@ p {
 }
 
 /* Text Utility Classes */
-.text-primary {
+.text-black {
     font-family: var(--font-primary);
-    color: var(--text-primary);
+    color: var(--text-primary) !important ;
 }
 
-.text-secondary {
+.text-grey {
     font-family: var(--font-secondary);
     color: var(--text-secondary);
+}
+
+.text-blue {
+    font-family: var(--font-secondary);
+    color: var(--primary-color);
 }
 
 .text-bold {
@@ -130,8 +139,12 @@ p {
 
 .text-xxl {
     font-size: var(--font-size-xxl);
-    line-height: var(--line-height-xxl);
+    line-height: var(--line-height-xxl);}
+
+/*--------------------BUTTONS-------------------------*/
+
+.primary-button{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border: none;
 }
-
-
-
