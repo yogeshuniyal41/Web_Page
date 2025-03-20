@@ -559,6 +559,21 @@ display:inline-block ;
 #video-section{
     padding: 2rem;
 }
+/*----------------------BENEFITS SECTION----------------------*/
+#beneficial-elements {
+    flex-direction: column;
+    text-align: center;
+    padding: 3rem;
+}
+
+.beneficial-content {
+    max-width: 100%;
+}
+
+.beneficial-cards {
+    flex-direction: column;
+    align-items: center;
+}
 
 
 }
