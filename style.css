@@ -872,8 +872,88 @@ display:inline-block ;
     .team-badge {
         left: 50%;
         transform: translateX(-50%);
-        
+
     }
+}
+
+/*******************TESTIMONIALS***********************************/
+.testimonials {
+    text-align: center;
+    padding: 4rem 5%;
+    background-color: #f8fafc;
+}
+
+.testimonials-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.testimonials-header h2 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.see-all {
+    font-size: 1rem;
+    text-decoration: none;
+    color: #003049;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+
+.testimonial-slider {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.testimonial-card {
+    background: white;
+    border-radius: 10px;
+    padding: 1.5rem;
+    width: 45%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.quote {
+    font-size: 2rem;
+    color: #ffcc00;
+}
+
+.testimonial-author {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 1rem;
+}
+
+.testimonial-author img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.testimonial-dots {
+    margin-top: 1rem;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    background: #ccc;
+    display: inline-block;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.dot.active {
+    background: #003049;
+    width: 20px;
 }
 
 
