@@ -152,21 +152,23 @@ p {
     text-align: center;
 }
 
-.hero-content {
-    text-align: center;
-}
+.hero-content{
+    gap: 2rem;
+   }
 
-#hero-subHeading {
-    line-height: 100%; /* Equal to font size */
-    letter-spacing: 0;
-    text-align: center;
-    
-    
-}
-
+/* Image Styling */
 .hero-img {
     width: 12.339rem;
     height: 21.25rem;
+}
+
+
+
+.mobile-img{
+    display: none;
+}
+.desktop-img{
+    display: inline-block;
 }
 
 .hero-buttons {
@@ -184,30 +186,53 @@ p {
     gap: 0.5rem;
 }
 
+/*--------------------BUTTONS-------------------------*/
 .hero-button-get-started {
-      /* 141px ÷ 16 */
-    height: 3.75rem;   /* 60px ÷ 16 */
-    gap: 1.5625rem;    /* 25px ÷ 16 */
-    padding-top: 1rem;     /* 16px ÷ 16 */
-    padding-right: 1.5rem; /* 24px ÷ 16 */
-    padding-bottom: 1rem;  /* 16px ÷ 16 */
-    padding-left: 1.5rem;  /* 24px ÷ 16 */
-    border-radius: 3.4375rem; /* 55px ÷ 16 */
+    height: 3.75rem;
+    padding: 1rem 1.5rem;
+    border-radius: 3.4375rem;
     line-height: var(--line-height-sm);
     box-shadow: 0px 23px 47px 0px rgba(4, 58, 83, 0.24);
-
 }
-.hero-play-button{
+
+.hero-play-button {
     width: 2.198rem;
     height: 2.198rem;
-   margin-left: 3.5rem;
+    margin-left: 3.5rem;
     border-radius: 50%;
 }
 
-/*--------------------BUTTONS-------------------------*/
-
-.primary-button{
+.primary-button {
     background-color: var(--primary-color);
     color: var(--secondary-color);
     border: none;
+}
+
+/*-------------------- Responsive Design for Mobile -----------------------------------*/
+@media (max-width: 768px) { 
+    #hero {
+        flex-direction: column;
+        text-align: center;
+        padding: 3rem 1rem;
+        align-items: center;
+        align-content: center;
+    }
+
+   
+    .hero-content{
+        gap: 3rem;
+    }
+   .desktop-img {
+    display: none;
+   }
+
+    .mobile-img{
+        display: inline-block;
+    }
+    
+
+    .hero-buttons {
+        flex-direction: column;
+        gap: 1rem;
+    }
 }
