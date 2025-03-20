@@ -670,5 +670,38 @@ display:inline-block ;
     align-items: center;
 }
 
+/****BUILDING BRIDGES***/
+
+#building-bridges{
+    display: flex;
+    flex-direction: column;
+    column-gap: 3rem;
+}
+#building-bridges .bridge-image{
+    order:2
+}
+
+.award-badge {
+    width: 100px; /* Reduce badge size */
+    height: 100px;
+    bottom: -20px; /* Adjust positioning */
+    
+.award-badge .icon {
+    width: 25px; /* Scale down icon */
+    height: 25px;
+}
+
+.award-badge h2 {
+    font-size: 1.4rem; /* Reduce font size */
+}
+
+.award-badge p {
+    font-size: 0.75rem; /* Adjust text */
+}
+}
+
 
 }
+
+
+
