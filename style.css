@@ -207,6 +207,31 @@ p {
     color: var(--secondary-color);
     border: none;
 }
+/*--------------------------TRUSTED BRANDS CSS-----------------------------*/
+#trusted-brand  {
+    display: flex;
+    align-self: center;
+    gap: 4rem;
+    justify-content: justify    ;
+    padding: 3.125rem 9.375rem  ;
+    
+    
+}
+.brand-logo{
+    display: flex;
+    gap:4rem;
+    
+    align-items: center;
+    justify-items: stretch;
+    padding: 0rem 4rem;
+}
+.padding-logo{
+    padding: 0rem 4rem;
+}
+#brand-logo img {
+    max-width:7rem; 
+    height: 1.125rem;
+}
 
 /*-------------------- Responsive Design for Mobile -----------------------------------*/
 @media (max-width: 768px) { 
@@ -229,7 +254,15 @@ p {
     .mobile-img{
         display: inline-block;
     }
-    
+    /*---------------------TRUSTED BRANDS---------------------*/
+    #trusted-brand{
+        flex-direction: column;
+        align-items: center;
+    }
+    #brand-logo{
+        flex-direction: column;
+        align-items: center;
+    }
 
     .hero-buttons {
         flex-direction: column;
