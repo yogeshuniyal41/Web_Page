@@ -212,12 +212,20 @@ p {
     display: flex;
     align-self: center;
     gap: 4rem;
-    justify-content: justify    ;
+    justify-content: center   ;
     padding: 3.125rem 9.375rem  ;
     
     
 }
 .brand-logo{
+    display: flex;
+    gap:2rem;
+    
+    align-items: center;
+    justify-items: stretch;
+    padding: 0rem 4rem;
+}
+#brand-logo-2{
     display: flex;
     gap:4rem;
     
@@ -225,9 +233,7 @@ p {
     justify-items: stretch;
     padding: 0rem 4rem;
 }
-.padding-logo{
-    padding: 0rem 4rem;
-}
+
 #brand-logo img {
     max-width:7rem; 
     height: 1.125rem;
@@ -258,10 +264,12 @@ p {
     #trusted-brand{
         flex-direction: column;
         align-items: center;
+        column-gap: 1.125rem;
     }
     #brand-logo{
         flex-direction: column;
         align-items: center;
+        column-gap: 1.125rem;
     }
 
     .hero-buttons {
