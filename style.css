@@ -736,7 +736,6 @@ display:inline-block ;
 @media (max-width: 768px) {
     .stats-section {
         flex-wrap: wrap;
-        flex-direction: column;
         gap: 20px;
         justify-content: center;
         text-align: center;
