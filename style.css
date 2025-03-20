@@ -98,6 +98,14 @@ p {
     font-family: var(--font-secondary);
     color: var(--primary-color);
 }
+.text-yellow {
+    font-family: var(--font-primary);
+    color: var(--third-color);
+}
+.text-white {
+    font-family: var(--font-primary);
+    color: var(--secondary-color);
+}
 
 .text-bold {
     font-weight: 700;
@@ -367,6 +375,24 @@ button {
 #brand-logo img {
     max-width:7rem; 
     height: 1.125rem;
+}
+/***********************************VIDEO SECTION----------------------*/
+#video-section{
+    background-color: var(--primary-color);
+    padding: 6.25rem 9.375rem 0rem 6.25rem;
+    
+}
+#video-section-heading{
+    display: flex;
+    align-items: center;
+}
+#sub-heading-1{
+width: 36.35rem;
+height: auto;
+}
+#sub-heading-2{
+    width: 27rem;
+    height: auto;
 }
 
 /*-------------------- Responsive Design for Mobile -----------------------------------*/
