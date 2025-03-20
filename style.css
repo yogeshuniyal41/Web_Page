@@ -729,3 +729,23 @@ display:inline-block ;
     color: #555;
 }
 
+/* 📌 RESPONSIVENESS */
+
+
+/* 📌 RESPONSIVENESS for max-width 768px */
+@media (max-width: 768px) {
+    .stats-section {
+        flex-wrap: wrap;
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .stat {
+        width: 45%;
+    }
+}
+
+
+
