@@ -746,5 +746,133 @@ display:inline-block ;
     }
 }
 
+/**********************************FOUNDER SECTION**************************************/
+/* Founder Section */
+.founder-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4rem 10%;
+    background-color: white;
+    gap: 2rem;
+}
+
+/* Text Content */
+.founder-content {
+    max-width: 50%;
+}
+
+.founder-content h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #000;
+}
+
+.founder-content .quote {
+    font-size: 1rem;
+    color: #444;
+    line-height: 1.6;
+    margin-top: 1rem;
+}
+
+.founder-info {
+    margin-top: 1rem;
+}
+
+.founder-info strong {
+    font-size: 1rem;
+    color: #000;
+}
+
+.founder-info p {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+/* CTA Button */
+.cta-button {
+    margin-top: 1.5rem;
+    padding: 12px 20px;
+    background-color: #003049;
+    color: white;
+    font-size: 1rem;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.cta-button .arrow {
+    font-size: 1.2rem;
+}
+
+/* Founder Image */
+.founder-image {
+    position: relative;
+    max-width: 50%;
+}
+
+.founder-image img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Badge Overlay */
+.team-badge {
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+    width: 13rem;
+    height: 13rem;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 4px solid white;
+}
+
+.team-badge img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Icon Badge */
+.badge-icon {
+    position: absolute;
+    top: 20px;
+    right: -20px;
+    background-color: #003049;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+.badge-icon img {
+    width: 25px;
+    height: 25px;
+}
+
+
+/* 📌 RESPONSIVENESS for max-width 768px */
+@media (max-width: 768px) {
+    .founder-section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .founder-content {
+        max-width: 100%;
+    }
+
+    .founder-image {
+        max-width: 100%;
+        margin-top: 2rem;
+    }
+
+    .team-badge {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
 
 
